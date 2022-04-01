@@ -8,18 +8,26 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <!--CSS Stylesheet-->
     <link rel="stylesheet" href="css/style.css">
+    <!--favicon-->
+    <link rel="icon" href="./favicon(1).ico">
+
     <!--Remix Icons-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Montažni bazeni | SeMok Construct</title>
 </head>
 <body>
 
+    <div class="cursor">
+        <img src="./images/waterdrop.png" class="cursor link-grow"
+        alt="">
+    </div>
+
     <!--OPENING HEADER-->
     <header class="header" id="header">
         <nav class="nav container" id="nav">
             <a href="index.html" class="logo"><img src="./images/SeMok logo.png" class="logo" alt=""></a>
             <div class="nav-mobile">
-                <ul class="list">
+                <ul class="list navi-links">
                     <li class="list-item">
                         <a href="#showcase" class="list-link current">Pocetna</a>
                     </li>
@@ -56,13 +64,12 @@
             <section class="showcase section" id="showcase">
                 <div class="showcase-container container d-grid">
                     <div class="showcase-data order-2">
-                        <span class="tagline">Semoksub - Montazni Bazeni</span>
-                        <h1 class="title main-title">Future Pool<span class="accent-text"> za Region Balkana</span></h1>
+                        <span class="tagline">Montažni bazeni za dvorište</span>
+                        <h1 class="title main-title">Future pool bazeni <span class="accent-text">predstavljaju jedan</span></h1>
                         <p class="description">
-                            Izuzetna dugotrajnost
-                            › brza izgradnja.
+                            od najzastupljenijih načina izgradnje otvorenih, baštenskih bazena u Evropi.
                         </p>
-                        <a href="#" class="btn">Explore</a>
+                        <a href="#" class="btn">Saznaj više</a>
                     </div>
 
                     <div class="image-group order-1 d-grid">
@@ -92,7 +99,7 @@
                     <div class="card">
                         <div class="box">
                         <i class="ri-drop-line"></i>
-                            <h3>Odlicno ce izgledati u vasem dvoriste</h3>
+                            <h3>Minimalne izdatke po pitanju održavanja</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, incidunt.</p>
                         </div>
                     </div>
@@ -113,7 +120,7 @@
                     <div class="card">
                         <div class="box">
                             <i class="ri-money-euro-circle-line"></i>
-                            <h3>Ekonomicna cena</h3>
+                            <h3>Ekonomična cena</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, incidunt.</p>
                         </div>
                     </div>
@@ -127,11 +134,15 @@
     <section class="popular-destinations section" id="popular-destinations">
         <div class="popular-destinations-container container d-grid">
             <div class="popular-destinations-data">
-                <span class="tagline">Odlicno ce izgledati u vasem dvoriste</span>
-                <h2 class="title">Future Pool <span class="accent-text">Bazena</span></h2>
+                <span class="tagline">Pravougaoni i ovalni bazeni</span>
+                <h2 class="title">Future pool bazeni <span class="accent-text">možemo podeliti </span></h2>
                 <p class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem.
-                </p>
+                    po osnovnim karakteristikama:  </p>
+                   <p>* Po obliku: okrugli i ovalni bazeni </p>
+                   <p> * Prema dubini: 1.2m i 1.5m </p> 
+                   <br>
+             
+                
                 <a href="#" class="btn">Galerija</a>
 
             </div>
@@ -219,16 +230,17 @@
 <section class="plan-trip section" id="plan-trip">
     <div class="plan-trip-container container d-grid">
         <div class="plan-trip-data">
-            <span class="tagline">Plan your pool</span>
-            <h1 class="title main-title">Best Pools in <span class="accent-text">Subotica</span></h1>
+            <span class="tagline">Montažni bazeni za dvorište.
+            </span>
+            <h1 class="title main-title">Futurepool bazeni <span class="accent-text">se sastoje od osnovne opreme</span></h1>
             <p class="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem.
+                Pored ovoga, moguće je ugraditi i mnogobrojnu dodatnu opremu poput podvodnog osvetljenja, grejanja vode, vodenih atrakcija, hidro i aero masažera.
             </p>
-            <a href="#" class="btn">Explore</a>
+            <a href="#" class="btn">Saznaj više</a>
         </div>
 
             <div class="beach-data-wrapper image-box">
-                <img src="./images/pools4.jpg" alt="">
+                <img src="./images/izgradnja.JPG" alt="">
             </div>       
         
     </div>
@@ -240,14 +252,14 @@
     <div class="newsletter-container container">
         <div class="newsletter-container-inner">
             <h2 class="title">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, qui!
+                SEMOK NEWSLETTER!
             </h2>
             <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ex dolor ipsum cumque, in tempora iusto itaque iste quibusdam earum!
+                Pridružite se našem timu! Prijavite se na naš newsletter!
             </p>
             <div class="btn-group">
-                <a href="" class="btn btn-light">Subscribe</a>
-                <a href="" class="btn btn-light">Kotizacija</a>
+                <a href="./Brosura-2022.pdf" class="btn btn-light">Brošura</a>
+                <a href="" class="btn btn-light">Prijavite Se</a>
             </div>
         </div>
     </div>
@@ -259,23 +271,21 @@
     <div class="footer-container container">
         <div class="footer-container-inner d-grid">
             <div>
-                <h6 class="title footer-title">Kompanija</h6>
+                <h6 class="title footer-title">Semok</h6>
                 <ul class="list">
                     <li class="list-item">
-                        <a href="#" class="list-link">O nama</a>
+                        <a href="onama.html" class="list-link">O nama</a>
                     </li>
                     <li class="list-item">
                         <a href="#services" class="list-link">Prednosti</a>
                     </li>
                     <li class="list-item">
-                        <a href="" class="list-link">Galerija</a>
+                        <a href="galerija.html" class="list-link">Galerija</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Kontakt</a>
+                        <a href="kontakt.html" class="list-link">Kontakt</a>
                     </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Sample link</a>
-                    </li>
+                  
                 </ul>
             </div>
 
@@ -292,11 +302,9 @@
                         <a href="#" class="list-link">Oznovna Oprema</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Sample link</a>
+                        <a href="#" class="list-link">Usisivači za bazene</a>
                     </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Sample link</a>
-                    </li>
+                    
                 </ul>
             </div>
 
@@ -307,22 +315,22 @@
                         <a href="#" class="list-link"></a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Sample link</a>
+                        <a href="#" class="list-link">Bazeni i bazenska tehnika</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Sample link</a>
+                        <a href="#" class="list-link">Bazeni i oprema za bazene</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Sample link</a>
+                        <a href="#" class="list-link">Kako Usistati Bazen</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Sample link</a>
+                        <a href="#" class="list-link">Prekrivka za bazene</a>
                     </li>
                 </ul>
             </div>
 
 <div class="contact-information">
-    <h6 class="title footer-title">Contact</h6>
+    <h6 class="title footer-title">Kontakt</h6>
     <address>
         <span>32 Biskupa Lajče Budanovića,24000</span>
         <span>Subotica, Serbia</span>
