@@ -478,6 +478,13 @@ i{
     background-size: cover;
 }
 
+.header-galerija{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/pexels-photo-1268871.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .header-container{
     display: flex;
@@ -670,7 +677,8 @@ textarea.contact-form-text{
 .heading-galerija{
     text-transform: uppercase;
     padding-bottom: 30px;
-    font-size: 5rem;
+    font-size: var(--font-size-lg);
+    font-weight: 300;
     letter-spacing: 3px;
 }
 
@@ -748,7 +756,7 @@ textarea.contact-form-text{
     background: url(../images/pexels-photo-8134744.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
 
@@ -757,22 +765,51 @@ textarea.contact-form-text{
 .nama-content{
     width: 100%;
     height: 80vh;
+    margin-top: 100px;
 }
 
 .nama-container-2{
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    align-items: center;}
 
 .nama-img{
     width: 50%;
+    height: 100%;
 }
 
 .nama-second{
     width: 50%;
-    text-align: center;
+    text-align: left;
+    line-height: 30px;
+    padding: 10px 40px;
 }
+
+/*CURSOR*/
+
+.cursor{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.5s ease;
+    transition-property: background, transform;
+    transform-origin: 100%, 100%;
+    z-index: 1000;
+  }
+
+  
+.link-grow{
+    transform: scale(2);
+    transition: all .3s ease;
+  
+  }
+  
+  .hovered-link{
+    color: var(--dark-clr);
+  }
 
 /**MEDIA QUERIES*/
 
