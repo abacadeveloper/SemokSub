@@ -220,6 +220,23 @@ i{
 }
 
 /*Showcase Section*/
+.section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/Landscape-design-drawing-2.jpg);
+    background-size: 500px;
+    background-position: center;
+    width: 100%;
+    height:100%;
+    opacity: .01;
+    position: fixed;
+
+
+}
+
+
 .showcase{
     margin-top: 8rem;
 }
