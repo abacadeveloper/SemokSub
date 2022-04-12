@@ -389,7 +389,7 @@ i{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: 5;
+    z-index: 51;
 }
 
 .newsletter::before{
@@ -400,7 +400,7 @@ i{
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, .4);
-    z-index: -2;
+    z-index: -1;
 
 }
 
