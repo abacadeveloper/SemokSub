@@ -245,7 +245,6 @@ i{
     position: fixed;
     z-index: -1;
 
-
 }
 
 
@@ -863,6 +862,23 @@ textarea.contact-form-text{
     color: var(--dark-clr);
   }
 
+
+.izgrandja-wrapper{
+    background-image: url(../images-bazen-lr/SLIKA\ 22-min.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+.izgrandja-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
 /**MEDIA QUERIES*/
 
 @media screen and (min-width: 400px){
@@ -1006,6 +1022,11 @@ textarea.contact-form-text{
         width: 100%;
 
     }
+
+
+
+
+
 
     
    
