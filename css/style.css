@@ -27,6 +27,12 @@
     --gap-sm: 1.5rem;
     --gap-md: 2rem;
     --gap-lg: 4rem;
+
+
+    --new-accent-clr: #FBE0C4;
+    --new-light-clr: #8AB6D6;
+    --new-light-drk: #2978B5;
+    --new-dark: #0061A8;
 }
 
 /*Base styles*/
@@ -48,7 +54,7 @@ html{
 body{
     font-family: var(--font-family);
     font-size: var(--font-size-sm);
-    color: var(--dark-clr);
+    color: var(--new-light-drk);
 
 }
 
@@ -126,7 +132,7 @@ i{
 .menu-toggle-icon{
     width: 3.5rem;
     height: 3.5rem;
-    background-color: var(--accent-clr);
+    background-color: var(--new-dark);
     color: var(--light-clr);
     cursor: pointer;
     transition: color .25s;
@@ -144,6 +150,7 @@ i{
 
 .list-link{
     position: relative;
+    color: var(--new-light-drk);
     /*for pseudo elements*/
 }
 
@@ -155,7 +162,7 @@ i{
     right: -1rem;
     width: .5rem;
     height: .5rem;
-    background-color: var(--accent-clr);
+    background-color: var(--new-dark);
     border-radius: 50%;
     opacity: 0;
     transition: opacity .25s;
@@ -168,6 +175,8 @@ i{
 
 .list-link:hover::after{
     opacity: 1;
+
+  
 }
 
 .nav-mobile{
@@ -297,7 +306,7 @@ i{
     font-size:  var(--font-size-xsm);
     font-weight: var(--font-weight-bold);
     text-transform: uppercase;
-    color: var(--accent-clr);
+    color: var(--new-light-clr);
     margin-bottom: var(--margin-sm);
 
 }
@@ -305,6 +314,7 @@ i{
 .title{
     font-size: var(--font-size-md);
     margin-bottom: var(--margin-md);
+    color: var(--new-dark)
 }
 
 .main-title{
@@ -312,7 +322,7 @@ i{
 }
 
 .accent-text{
-    color: var(--accent-clr);
+    color: var(--new-light-clr);
 }
 
 .description{
@@ -321,14 +331,15 @@ i{
 
 .btn{
     display: inline-block;
-    background-color: var(--accent-clr);
+    background-color: var(--new-dark);
     color: var(--light-clr);
     padding: 1rem 2.5rem;
-    transition: background-color .25s;
+    transition: background-color 1.25s;
 }
 
 .btn:hover{
-    background-color: #00be85;
+    background-color: var(--new-accent-clr);
+    color: var(--new-dark);
 }
 
 /*Popular destinations*/
@@ -389,7 +400,7 @@ i{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: 51;
+    z-index: 1;
 }
 
 .newsletter::before{
@@ -426,6 +437,10 @@ i{
     max-width: 78rem;
     text-align: center;
     color: var(--light-clr);
+}
+
+.newsletter h2{
+    color:#fff;
 }
 
 .btn-group{
@@ -478,7 +493,7 @@ i{
 }
 
 .footer .list-link:hover{
-    color: var(--accent-clr);
+    color: var(--new-light-clr);
 }
 
 .footer-title{
@@ -487,6 +502,7 @@ i{
 
 .underline{
     text-decoration: underline;
+    color: var(--new-dark);
 }
 
 .footer-separator{
@@ -498,6 +514,9 @@ i{
     opacity: .8;
 }
 
+.copyright a{
+    color: var(--new-light-clr);
+}
 
 /*KONTAKT PAGE*/
 
@@ -643,7 +662,7 @@ textarea.contact-form-text{
     position: absolute;
     width: 180px;
     height: 3px;
-    background: var(--accent-clr);
+    background: var(--new-accent-clr);
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
