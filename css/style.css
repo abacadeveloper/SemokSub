@@ -878,7 +878,43 @@ textarea.contact-form-text{
     color: #fff;
 }
 
+/*Izgradnja section*/
+.work-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
+    background-color: var(--new-dark);
+    color: var(--new-light-clr)
+   
+}
 
+.work-container{
+    display: flex;
+    width: 80%;
+    line-height: 1.5;
+}
+
+.work-title{
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+}
+
+
+.descrip-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    color: var(--new-dark);
+}
+
+.descrip-content{
+    width: 80%;
+}
 /**MEDIA QUERIES*/
 
 @media screen and (min-width: 400px){
@@ -896,6 +932,15 @@ textarea.contact-form-text{
         display: flex;
         flex-direction: column;
     }
+
+    .gallery .main-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+
 }
 
 
@@ -1024,12 +1069,87 @@ textarea.contact-form-text{
     }
 
 
+    .work-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 100%;
+        background-color: var(--new-dark);
+        color: var(--new-light-clr)
+    }
 
+    .work-container::before{
+        content: '';
+        position: absolute;
+        border: 1px solid var(--new-accent-clr);
+        background-color: var(--new-accent-clr);
+        height: 5px;
+        width: 150px;
+    }
+    .work-container{
+        width: 1000px;
+    }
 
+    .work-title {
+        font-size: 3.0rem;
+        padding-bottom: 20px;
+        margin-top: 30px;
+    }
 
+    .work-text{
+        font-size: 1.6rem;
+    }
 
+    .descrip-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 70vh;
+        width: 100%;
+        color: var(--new-dark);
+    }
     
-   
-   
+    .descrip-content {
+        line-height: 2;
+    }
+
+    .content-par{
+        display: flex;
+        justify-content:space-around;
+        width: 1200px;
+    }
+    .descrip-content h4{
+        font-size: 2rem;
+        font-weight:500;
+    }
+
+    .descrip-content h5{
+        font-size: 1.6rem;
+    }
+
+    .descrip-content .solo{
+        display: flex;
+        align-items: center;
+    }
+
+    .solo p{
+        font-size: 1.5rem;
+    }
+
+    .solo{
+        padding-left: 80px;
+    }
+
+    .description-iz::after {
+        content: '';
+        position: absolute;
+        background-color: var(--new-dark);
+        height: 5px;
+        width: 200px;
+    }
+
+
 }
 
