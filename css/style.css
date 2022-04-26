@@ -338,6 +338,13 @@ i{
     font-size: var(--font-size-md);
 }
 
+.description-newsletter{
+    margin-bottom: var(--margin-lg);
+    color: #fff;
+    font-weight: 300;
+    font-size: var(--font-size-sm);
+}
+
 .btn{
     display: inline-block;
     background-color: var(--new-dark);
