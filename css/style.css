@@ -160,6 +160,8 @@ i{
     /*for pseudo elements*/
 }
 
+
+/*for pseudo elements
 .list-link::after,
 .list-link.current::after{
     content: '';
@@ -174,6 +176,7 @@ i{
     transition: opacity .25s;
 
 }
+*/
 
 .list-link.current::after{
     opacity:1 !important; /*maskes sure always shows up*/
