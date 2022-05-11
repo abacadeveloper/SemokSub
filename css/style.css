@@ -1161,6 +1161,70 @@ textarea.contact-form-text{
         height: 5px;
         width: 200px;
     }
+    
+    
+   
+
+        .gallery-highlight {
+            width: 90%;
+            height: 60%;
+        }
+    
+    
+        .flex-wrapper {
+            display: flex;
+            height: 100%;
+        }
+    
+        .flex-reverse {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    
+        .item-description {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+        }
+    
+        .item-gallery {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+        }
+    
+        .item-preview {
+            display: flex;
+            width: 90%;
+            border: 1px solid #e2d2c0;
+        }
+    
+    
+        .item-preview img {
+            height: 150px;
+            flex-grow: 1;
+            opacity: 0.6;
+            cursor: pointer;
+            transition: opacity 0.3 ease;
+        }
+    
+        img.pool-active {
+            opacity: 1;
+    
+        }
+
+        .description-item{
+            width: 70%;
+            font-size: 1.5rem;
+            margin: 30px auto;
+        }
+
 
 
 }
