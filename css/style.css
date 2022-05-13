@@ -655,19 +655,27 @@ i{
 
 /*KONTAKT PAGE*/
 
+
 .header-wrapper{
     height: 100vh;
     width: 100%;
+    height: 50vh;
+    max-width: 100%;
     background-image: url(../images-bazen-lr/SLIKA\ 15-min.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-size:cover;
 }
 
 .header-galerija{
     height: 100vh;
     width: 100%;
+    height: 40vh;
+    max-width: 100%;
     background-image: url(../images-bazen-lr/SLIKA\ 3-min.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+
     background-size: cover;
 }
 
@@ -845,6 +853,8 @@ textarea.contact-form-text{
 
 .galerija-container{
     background: url(../images/pexels-photo-261238.jpg);
+    background-position: center;
+
 }
 .gallery{
     display: flex;
@@ -944,8 +954,8 @@ textarea.contact-form-text{
     background: url(../images-bazen-lr/SLIKA\ 16-min.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
+    height: 40vh;
+    max-width: 100%;
     display: flex;
 
 }
@@ -1542,9 +1552,15 @@ textarea.contact-form-text{
             right: 0;
         
         }
-        
 
 
+    .header-wrapper, .header-galerija, 
+    .nama-container {
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    
+}
 
 }
 
