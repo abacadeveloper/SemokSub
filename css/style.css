@@ -304,12 +304,30 @@ i{
 
 }
 
-.oprema-descrip .description{
-    font-size: 1.1em;
-    font-weight: 400;
-    width: 380px;
+.oprema-descrip .oprema-wrapper .description{
+    font-size: 1.2em;
+    font-weight: 500;
+    width: 450px;
     color: var(--new-dark);
 }
+
+.ozoprema-descrip .ozoprema-wrapper .description{
+    font-size: 1.2em;
+    font-weight: 500;
+    width: 450px;
+    color: var(--new-dark);
+}
+
+.ozoprema-descrip{
+    width: 100%;
+    display: flex;
+}
+
+.ozoprema-descrip .ozoprema-wrapper{
+   margin: 50px auto; 
+    
+}
+
 
 .flex-wrapper{
     display: flex;
@@ -1360,6 +1378,8 @@ textarea.contact-form-text{
     
         .item-gallery {
             width: 50%;
+            max-width: 100%;
+            max-height: fit-contents;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -1617,6 +1637,34 @@ textarea.contact-form-text{
 .nama-second h2{
         margin-bottom: 50px;
 }
+
+.oprema-descrip .oprema-wrapper .description{
+    font-size: 1.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 700px;
+    color: var(--new-dark);
+}
+
+.ozoprema-descrip{
+    width: 100%;
+    display: flex;
+}
+
+.ozoprema-descrip .ozoprema-wrapper{
+   margin: 100px auto; 
+    
+}
+
+.ozoprema-descrip .ozoprema-wrapper .description,
+.ozoprema-descrip .ozoprema-wrapper .descr2{
+    font-size: 1.2em;
+
+}
+
+
+
+
 
 }
 
